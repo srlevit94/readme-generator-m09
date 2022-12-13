@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator-m09",
+  "version": "1.0.0",
+  "description": "[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srlevit94/readme-generator-m09.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srlevit94/readme-generator-m09/issues"
+  },
+  "homepage": "https://github.com/srlevit94/readme-generator-m09#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
