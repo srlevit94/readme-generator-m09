@@ -1,21 +1,30 @@
-# Professional README Generator Starter Code
+# README.md  [![GNU General Public License v3.0](https://img.shields.io/badge/License-GNU General Public License v3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  ## Description
+  This is a README generator, so that you can make a professional-looking readme that hits all the points you want to cover, and beatifilly and efficiently formats it. 
+  ## Table of Contents
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#license)
+  * [Contributing](#Contributing)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
+  ***
+  ## Installation
+  * `git clone` this repo to your own local device
+  * run `npm install` to install the package dependecies needed
+  * run `node index.js` to start the application
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+  ## Usage
+  * Answer the questions given in the prompt. The project title will also become the name of your README
+  * The license you choose will generate a license badge, link, and statement corresponding to your selection
+  * Watch the tutorial video in the /assets folder to see the application in action!
 
-## Acceptance Criteria
-- GIVEN a command-line application that accepts user input
 
-- WHEN I am prompted for information about my application repository
-- THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-- WHEN I enter my project title
-- THEN this is displayed as the title of the README
-- WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-- THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-- WHEN I choose a license for my application from a list of options
-- THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-- WHEN I enter my GitHub username
-- THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-- WHEN I enter my email address
-- THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-- WHEN I click on the links in the Table of Contents
-- THEN I am taken to the corresponding section of the README
+  ## Licenses
+    This project is covered under the GNU General Public License v3.0 license.
+  
+  ## Questions
+  If you have any questions about the project you can reach out to me via email or GitHub with the information below. 
+  >Email: srlevit94@gmail.com  
+  >GitHub : [srlevit94](https://github.com/srlevit94)
+
