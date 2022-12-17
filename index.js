@@ -1,65 +1,65 @@
-// TODO: Include packages needed for this application
+// packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 
-// TODO: Create an array of questions for user input
+//  array of questions for user input
 const questions = [
     {   type: 'input',
         message: "Write a title of your project.",
         name: 'title',
-        default:  'Default title', 
+        default:  'Sample title', 
     },
     {   type: 'input',
         message: "Write a description of your project.",
         name: 'description',
-        default:  'Default Description', 
+        default:  'Sample Description', 
     },
     {   type: 'input',
         message: "Write a installation instructions for your project.",
         name: 'install',
-        default:  'Default installation', 
+        default:  'Sample installation instructions', 
     },
     {   type: 'input',
         message: "Write usage information for your project.",
         name: 'usage',
-        default:  'Default usage', 
+        default:  'Sample usage information', 
     },
     {   type: 'input',
         message: "Write contribution guidelines for your project.",
         name: 'contribution',
-        default:  'Default contribution guidelines', 
+        default:  'Sample contribution guidelines', 
     },
     {   type: 'input',
         message: "Write contribution guidelines for your project.",
         name: 'test',
-        default:  'Default test instructions', 
+        default:  'Sample test instructions', 
     },
     {   type: 'list',
         message: "Select a license for your project.",
         name: 'license',
-        default:  'Default license', 
-        choices: ['MIT', 'Lic2', 'Lic3']
+        default:  'MIT', 
+        choices: ['MIT', 'Apache License 2.0', 'GNU General Public License v3.0']
     },
     {
         type: 'input',
         message: "What is your GitHub username?",
         name: 'user',
-        default: 'srlevit94',
+        default: 'sampleusername',
     },
     {
         type: 'input',
         message: "What is email address?",
         name: 'email',
-        default: 'srlevit94@gmail.com',
+        default: 'myemail@.provider.com',
     }
 ];
 
-// TODO: Create a function to write README file
+// function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-        err ? console.log(err) : console.log('Success!')
+        err ? console.log(err) : console.log(' README successfully generated!')
     );
 }  
 
@@ -76,4 +76,3 @@ function init() {
 // Function call to initialize app
 init()
 
-// .then(userInput => generateMarkdown(userInput))
