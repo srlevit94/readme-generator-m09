@@ -32,7 +32,7 @@ const questions = [
         default:  'Sample contribution guidelines', 
     },
     {   type: 'input',
-        message: "Write contribution guidelines for your project.",
+        message: "Write test instructions for your project.",
         name: 'test',
         default:  'Sample test instructions', 
     },
@@ -40,7 +40,7 @@ const questions = [
         message: "Select a license for your project.",
         name: 'license',
         default:  'MIT', 
-        choices: ['MIT', 'Apache License 2.0', 'GNU General Public License v3.0']
+        choices: ['MIT', 'Apache License 2.0', 'GNU General Public License v3.0', '']
     },
     {
         type: 'input',
